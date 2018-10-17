@@ -1,3 +1,5 @@
+###################################### BEGIN PROGRAM ####################################################################################
+
 userInputA = input("Enter time 1: ")                                        #INPUT 1
 userInputB = input("Enter time 2: ")                                        #INPUT 2
 
@@ -25,3 +27,6 @@ hh3 = (hh1+hh2+mmOF)%24
 ClockArithmeticOP = "{}:{}:{}".format(hh3, mm3, ss3)                #Optimizing the output into a single defined element
 
 print(" {} + {} = {} ".format(userInputA, userInputB, ClockArithmeticOP))       #Final Output
+
+
+######################################### END PROGRAM #####################################################################################
